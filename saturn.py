@@ -733,15 +733,15 @@ def main():
 
         elif "help" in cnc:
             print(f'''
-       \x1b[38;2;0;212;14m╔═══════════════╗
-                                \x1b[38;2;0;212;14m║     \x1b[38;2;0;255;255mRules     \x1b[38;2;0;212;14m║
-                \x1b[38;2;0;212;14m╔═══════════════╩═══════════════╩═══════════════╗
-                \x1b[38;2;0;212;14m║ \x1b[38;2;0;255;255m2. LAYER7  ► SHOW LAYER7 METHODS  \x1b[38;2;0;212;14m║
-                \x1b[38;2;0;212;14m║ \x1b[38;2;0;255;255m4. LAYER4  ► SHOW LAYER4 METHODS         \x1b[38;2;0;212;14m║
-                \x1b[38;2;0;212;14m║ \x1b[38;2;0;255;255m5. AMP     ► SHOW AMP METHODS                       \x1b[38;2;0;212;14m║
-                \x1b[38;2;0;212;14m║ \x1b[38;2;0;255;255m6. SPECIAL ► SHOW SPECIAL METHODS       \x1b[38;2;0;212;14m║
-                \x1b[38;2;0;212;14m║ \x1b[38;2;0;255;255m7. PORTS   ► SHOW ALL PORTS           \x1b[38;2;0;212;14m║
-                \x1b[38;2;0;212;14m╚═══════════════════════════════════════════════╝
+      LAYER7  ► SHOW LAYER7 METHODS
+LAYER4  ► SHOW LAYER4 METHODS
+AMP     ► SHOW AMP METHODS
+SPECIAL ► SHOW SPECIAL METHODS
+BANNERS ► SHOW BANNERS
+RULES   ► RULES PANEL
+PORTS   ► SHOW ALL PORTS
+TOOLS   ► SHOW TOOLS
+CLEAR   ► CLEAR TERMINAL
             ''')
 
         else:
