@@ -660,7 +660,7 @@ def main():
             try:
                 ip = cnc.split()[1]
                 try:
-                    r = requests.get(f'https://api.hackertarget.com/geoip/?q={ip}')
+                    r = requests.get(f'https://api.adiofficial.xyz/={ip}')
                     print(r.text)
                 except:
                     print("[ API Error :( ]")
@@ -672,7 +672,7 @@ def main():
             try:
                 ip = cnc.split()[1]
                 try:
-                    r = requests.get(f'https://api.hackertarget.com/reverseiplookup/?q={ip}')
+                    r = requests.get(f'https://api.adiofficial.xyz/={ip}')
                     print(r.text)
                 except:
                     print("[ API Error :( ]")
@@ -684,7 +684,7 @@ def main():
             try:
                 ip = cnc.split()[1]
                 try:
-                    r = requests.get(f'https://api.hackertarget.com/subnetcalc/?q={ip}')
+                    r = requests.get(f'https://api.adiofficial.xyz/={ip}')
                     print(r.text)
                 except:
                     print("[ API Error :( ]")
@@ -696,7 +696,7 @@ def main():
             try:
                 ip = cnc.split()[1]
                 try:
-                    r = requests.get(f'https://api.hackertarget.com/aslookup/?q={ip}')
+                    r = requests.get(f'https://api.adiofficial.xyz/={ip}')
                     print(r.text)
                 except:
                     print("[ API Error :( ]")
@@ -708,7 +708,7 @@ def main():
             try:
                 ip = cnc.split()[1]
                 try:
-                    r = requests.get(f'https://api.hackertarget.com/dnslookup/?q={ip}')
+                    r = requests.get(f'https://api.adiofficial.xyz/={ip}')
                     print(r.text)
                 except:
                     print("[ API Error :( ]")
@@ -720,7 +720,7 @@ def main():
             try:
                 ip = cnc.split()[1]
                 try:
-                    r = requests.get(f'https://api.hackertarget.com/reversedns/?q={ip}')
+                    r = requests.get(f'https://api.adiofficial.xyz/={ip}')
                     print(r.text)
                 except:
                     print("[ API Error :( ]")
